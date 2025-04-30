@@ -12,28 +12,29 @@ A simple Bash script to toggle GNOME system proxy settings on and off with a sin
 
 1. **Clone or Download the Script**
 
-   Download `Proxy-Toggler` to your computer.
+   Clone `Proxy-Toggler` to your computer.
 
 2. **Configure Your Proxy**
 
+   Create a .env file in the same directory and enter your username and password (url-encoded) as mentioned in .env.example
    Open the script in a text editor and set your proxy IP and port
 
-3. **Make the Script Executable**
+4. **Make the Script Executable**
 
    `chmod +x /path/to/runner.sh /path/to/toggle-proxy-terminal.sh /path/to/toggle_proxy.sh /path/to/first-run.sh`
 
 
-4. **(Optional) Move the Script to Your PATH**
+5. **(Optional) Move the Script to Your PATH**
 
     For easy access, move it to a directory in your PATH, such as `~/.local/bin`:
 
 
-5. **Run the Script**
+6. **Run the Script**
 
     From any terminal: `runner.sh`
 
 
-6. **(Optional) Set Up a Keyboard Shortcut**
+7. **(Optional) Set Up a Keyboard Shortcut**
 
 - Open GNOME Settings → Keyboard → Keyboard Shortcuts.
 - Add a new custom shortcut.
