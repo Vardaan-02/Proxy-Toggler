@@ -1,4 +1,4 @@
-#!/bin/bash
+#!usr/bin/env bash
 
 # Make sure all scripts are executable
 chmod +x toggle_proxy.sh
@@ -7,7 +7,8 @@ chmod +x first-run.sh
 
 # Run toggle_proxy.sh
 echo "Running toggle_proxy.sh..."
-./toggle_proxy.sh
+# ./toggle_proxy.sh
+"/home/harshit/.scripts/Proxy-Toggler/toggle_proxy.sh"
 
 # Check if toggle_proxy.sh ran successfully
 if [ $? -eq 0 ]; then
@@ -19,8 +20,8 @@ fi
 
 # Run toggle-proxy.-terminal.sh
 echo "Running toggle-proxy.-terminal.sh..."
-./toggle-proxy-terminal.sh
-
+# ./toggle-proxy-terminal.sh
+/home/harshit/.scripts/Proxy-Toggler/toggle-proxy-terminal.sh
 # Check if toggle-proxy.-terminal.sh ran successfully
 if [ $? -eq 0 ]; then
     echo "toggle-proxy-terminal.sh ran successfully."
@@ -31,7 +32,8 @@ fi
 
 # Run first-run.sh
 echo "Running first-run.sh..."
-./first-run.sh
+#./first-run.sh
+"/home/harshit/.scripts/Proxy-Toggler/first-run.sh"
 
 # Check if first-run.sh ran successfully
 if [ $? -eq 0 ]; then
