@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 # Make sure all scripts are executable
 chmod +x toggle_proxy.sh
